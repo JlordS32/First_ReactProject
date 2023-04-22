@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,600;0,900;1,700&display=swap');
+
+body {
+    background-color: #e1f1e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #0a3d2f;
+    font-size: 30px;
+    max-width: 500px;
+    word-wrap: break-word;
+}
+
+.container h1{
+    text-align: center;
+}
+
+input:focus{
+    color: #0a3d2f;
+}
+
+.inputBtn input{
+    width: 300px;
+    height: 50px;
+    font-size: 30px;
+    border-radius: 10px;
+    border: 0;
+    text-indent: 10px;
+}
+
+.inputBtn button{
+    width: 60px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 100px;
+    border: 0;
+    color: #fff;
+    background-color: #7bb75b;
+    transition: all 0.3s ease-out;
+}
+
+.inputBtn button:active {
+    background-color: #fff;
+    color: #0a3d2f;
+    border: #0a3d2f 2px solid;
+}
+
+.inputBtn button:hover {
+    opacity: 0.7;
+}
+
+.inputBtn {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.clearBtn {
+    background-color: #7bb75b;
+    color: #fff;
+    border: 0;
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: all 0.3s ease-out;
+}
+
+.clearBtn:active {
+    background-color: #fff;
+    color: #0a3d2f;
+    border: #0a3d2f 2px solid;
+}
+
+.clearBtn:hover {
+    opacity: 0.7;
+}
+
+.clearContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.checkBoxes label {
+    display: flex;
+    align-items: center;
+}
+
+.checkBoxes input[type="checkbox"] {
+    appearance: none;
+}
+  
+.checkBoxes input[type="checkbox"]::before {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+    transition: background-color 0.3s;
+}
+  
+.checkBoxes input[type="checkbox"]:checked::before {
+    background-color: #7bb75b;
+}
+  
+.checkBoxes input[type="checkbox"]::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    top: 1px;
+    left: 1px;
+}
+  
+.checkBoxes input[type="checkbox"]:checked::after {
+    left: 21px;
+}
+
+.checkBoxes input[type="checkbox"]:hover {
+    opacity: 0.8;
+    content: '';
+    display: block;
+    width: 40px;
+    height: 20px;
+    background-color: #ccc;
+    border-radius: 20px;
+    position: relative;
+}
+
+.todoName {
+    margin-left: 10px;
+    transition: all 2s ease-out;
+}
+
+.todoName:hover{
+    transform: translateX(5px);
+}
+
+.todoName.fade-out {
+    left: 50%;
+}
