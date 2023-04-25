@@ -1,6 +1,10 @@
 <<<<<<< HEAD
-# -React-Projects
+# Note
 Not full project but a repo to for React Testing
+
+Just a simple to do list website
+
+![GIF][https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExNjhjOTUzN2NlMjE0OWM0Y2ZmNTkwNDk2ZjA2OTgzN2UwYTA4YWZlNCZlcD12MV9pbnRlcm5hbF9naWZzX2dpZklkJmN0PWc/DaOulSjH6Qq2Mmef97/giphy.gif]
 =======
 # Getting Started with Create React App
 
