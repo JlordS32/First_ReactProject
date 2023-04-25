@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Note
 Not full project but a repo to for React Testing
 
